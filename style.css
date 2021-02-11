@@ -1,0 +1,65 @@
+* {
+  /* These first 3 reset all the default visual settings */
+  /* so we are starting without any weird settings */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.nav-button {
+  border: none;
+  color: white;
+  background-color: black;
+  margin: 20px 25px;
+}
+
+.title {
+  /* Top, right, bottom, left */
+  margin: 20px;
+  float: right;
+  color: white;
+}
+
+.large-images {
+  width: 100%;
+  height: auto;
+}
+
+.picture-desc {
+  float: left;
+  font-size: 1.29vw;
+  text-align: top;
+  color: white;
+  width: 100%;
+}
+
+/* FOOTER TEST */
+#footer {
+  display: table;
+  max-width: 60em;
+  padding: 1.25em;
+  margin: 0 auto;
+  border: 0.062em solid #151515;
+  background-color: #f2f2f2;
+  color: #151515;
+}
+#footer div {
+  display: table-cell;
+  width: 33.333%;
+  padding: 1em;
+  text-align: center;
+}
+
+#footer div h2 {
+  text-align: center;
+}
+
+#footer div:nth-of-type(2) {
+  border-right: 0.062em solid rgb(0, 0, 0);
+  border-left: 0.062em solid rgb(0, 0, 0);
+}
+
+#footer div:nth-of-type(3) {
+  text-align: left;
+}
